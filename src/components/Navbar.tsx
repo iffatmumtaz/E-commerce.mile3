@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaHamburger } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
@@ -33,7 +34,7 @@ const Navbar = () => {
               
               {/*cart icon*/}
               <FaShoppingCart className=" w-8 h-8 rounded-full ring-2 p-1 relative text-cyan-400 hover:text-amber-400" />
-              <img
+              <Image
                 className="inline-block w-8 h-8 rounded-full ring-2 ring-sky-400 hover:text-amber-400"
                 src="/images/banner-jpeg.jpeg"
                 alt="user avtar"

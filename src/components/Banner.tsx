@@ -1,10 +1,10 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 const Banner = () => {
   return (
     <div className="relative overflow-hidden bg-gradient-to-r from-black to-grey-700 font-sans px-6 py-12 mb-10 ">
       <div className="absolute inset-0 opacity-20">
-        <img
+        <Image
           src="/images/burger.avif"
           alt="delicious burger banner"
           className="w-full h-full object-cover "

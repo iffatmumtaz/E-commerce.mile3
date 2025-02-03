@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import ProductCard from "./ProductCard";
@@ -104,7 +105,7 @@ const Menu = () => {
                           key={index}
                           className="flex items-center justify-center mb-6 transform transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl"
                         >
-                          <img
+                          <Image
                             src={product.image}
                             alt={product.name}
                             className="w-20 h-40 sm:w-24 inline-block transition-transform duration-300 ease-in-out transform hover:scale-105 text-black"

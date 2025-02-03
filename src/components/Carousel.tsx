@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Carousel = () => {
@@ -11,7 +12,7 @@ const Carousel = () => {
                 href=""
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
               >
-                <img
+                <Image
                   src="/images/spicy.jpg"
                   alt="burger 1"
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -29,7 +30,7 @@ const Carousel = () => {
                 href=""
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4"
               >
-                <img
+                <Image
                   src="/images/cherry.jpg"
                   alt="burger 2"
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -46,7 +47,7 @@ const Carousel = () => {
                   href=""
                   className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
                 >
-                  <img
+                  <Image
                     src="/images/vegie.jpg"
                     alt="burger 3"
                     className="absolute inset-0 h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -61,7 +62,7 @@ const Carousel = () => {
                   href=""
                   className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
                 >
-                  <img
+                  <Image
                     src="/images/classic.webp"
                     alt="burger 4"
                     className="absolute inset-0 h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -78,11 +79,11 @@ const Carousel = () => {
                 href=""
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
               >
-                <img
+                <Image
                   src="/images/cheesy.jpg"
                   alt="burger 5"
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duraton-500 ease-in-out"
-                ></img>
+                />
 
                 <div className="absolute inset-0 bg-gradient-to-b from-grey-900/25 to-grey-900/5"></div>
                 <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-0xl">
